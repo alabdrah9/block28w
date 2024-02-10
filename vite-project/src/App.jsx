@@ -22,9 +22,9 @@ function App() {
       <div id="navbar"><link rel="stylesheet" href="./." /></div>
       <div id="main-section">
    <Routes>
-     <Route path="/blue" element={<h1>Blue</h1>} />
-     <Route path="/red" element={<h1>Red</h1>} />
-     <Route path="/home" element={<h1>Home</h1>} />
+     <Route path="/blue" element={<Blue>} />
+     <Route path="/red" element={<Red>} />
+     <Route path="/home" element={<Home>} />
    </Routes>
 </div>
     </div>
