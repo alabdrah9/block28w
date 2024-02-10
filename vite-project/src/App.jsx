@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -9,7 +9,7 @@ import './components/Home'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
 
@@ -21,6 +21,7 @@ function App() {
       <div id="navbar"><link rel="stylesheet" href="./components/Home.jsx." />Home</div>
       <div id="navbar"><link rel="stylesheet" href="./." /></div>
       <div id="main-section">
+        <div>
    <Routes>
      <Route path="/blue" element={<Blue>} />
      <Route path="/red" element={<Red>} />
